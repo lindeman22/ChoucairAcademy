@@ -1,6 +1,6 @@
 package co.com.choucair.certification.lindeman.stepdefinitions;
 import co.com.choucair.certification.lindeman.models.AcademyChoucairData;
-import co.com.choucair.certification.lindeman.tasks.Answer;
+import co.com.choucair.certification.lindeman.questions.Answer;
 import co.com.choucair.certification.lindeman.tasks.Login;
 import co.com.choucair.certification.lindeman.tasks.OpenUp;
 import co.com.choucair.certification.lindeman.tasks.Search;
@@ -9,8 +9,6 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.serenitybdd.screenplay.GivenWhenThen;
-import net.serenitybdd.screenplay.actions.Open;
-import net.serenitybdd.screenplay.actions.OpenPage;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
